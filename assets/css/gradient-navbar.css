@@ -55,3 +55,28 @@
   }
 }
 
+@media (min-width: 300px) {
+  #shortTitle {
+    padding: 0px;
+    width: 299px;
+    height: 29px;
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #shortTitle {
+    padding: 50px;
+    width: 1150px;
+    height: 28px;
+    margin: auto;
+    font-size: 50px;
+  }
+}
+
+#Features {
+  padding: 0px;
+  margin: 0px;
+}
+
