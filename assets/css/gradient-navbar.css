@@ -9,7 +9,7 @@
 #BackgroundHome {
   /*text-align: center;*/
   padding: 500px;
-  background: url(../../assets/img/header_steam.png);
+  background: url(../../assets/img/header_steam_small.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
