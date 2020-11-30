@@ -6,14 +6,52 @@
   background: linear-gradient(120deg, #00e4d0, #5983e8);
 }
 
-#BackgroundHome {
-  /*text-align: center;*/
-  padding: 500px;
-  background: url(../../assets/img/header_steam_small.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+@media (min-width: 300px) {
+  #BackgroundHome {
+    /*text-align: center;*/
+    padding: 80px;
+    background: url(../../assets/img/header_steam_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
-.text-center.d-xl-flex.justify-content-xl-center.align-items-xl-center.clean-block.clean-hero {
+@media (min-width: 576px) {
+  #BackgroundHome {
+    /*text-align: center;*/
+    padding: 130px;
+    background: url(../../assets/img/header_steam_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  #BackgroundHome {
+    /*text-align: center;*/
+    padding: 180px;
+    background: url(../../assets/img/header_steam_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 992px) {
+  #BackgroundHome {
+    padding: 200px;
+    background: url(../../assets/img/header_steam_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1200px) {
+  #BackgroundHome {
+    /*text-align: center;*/
+    padding: 250px;
+    background: url(../../assets/img/header_steam_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
