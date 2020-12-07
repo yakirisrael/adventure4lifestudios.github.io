@@ -80,3 +80,23 @@
   margin: 0px;
 }
 
+.fab fa-facebook-f {
+  color: yellow;
+}
+
+.fb-icon {
+  color: yellow;
+}
+
+.fab fa-facebook-f {
+  hover: yellow;
+}
+
+.css:hover {
+  background: red;
+}
+
+.media-zone {
+  color: #00326c;
+}
+
