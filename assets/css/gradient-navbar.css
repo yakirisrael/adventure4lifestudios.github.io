@@ -122,3 +122,7 @@
 @media {
 }
 
+.navbar-light .navbar-toggler-icon {
+  color: blue;
+}
+
