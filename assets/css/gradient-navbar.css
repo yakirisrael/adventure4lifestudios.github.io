@@ -61,7 +61,7 @@
     width: 299px;
     height: 29px;
     margin: 0;
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
@@ -110,7 +110,7 @@
 }
 
 #shortTitle {
-  margin-right: auto;
+  margin: auto;
   margin-left: auto;
 }
 
