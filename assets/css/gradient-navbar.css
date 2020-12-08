@@ -104,3 +104,21 @@
   font-size: 40px;
 }
 
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#shortTitle {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col {
+  flex: 25%;
+  /*max-width: 1200px;*/
+}
+
+@media {
+}
+

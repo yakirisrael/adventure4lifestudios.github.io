@@ -1,0 +1,8 @@
+@media screen and (max-width: 992px) {
+  .col {
+    flex: 50%;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+  }
+}
+
