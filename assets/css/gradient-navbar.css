@@ -126,3 +126,52 @@
   color: blue;
 }
 
+.text-info.text-features {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+#Features {
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+@media (min-width: 300px) {
+  .text-left.d-flex.align-content-center.flex-wrap .memberDesc {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-left.d-flex.align-content-center.flex-wrap {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .member-row {
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 300px) {
+  .member-row {
+    padding-top: 500px;
+  }
+}
+
+.member-row-all {
+  height: 315px;
+  width: 965px;
+}
+
+@media (min-width: 300px) {
+  .memberDesc {
+    width: 300px;
+    padding-left: 1px;
+    margin-left: 20px;
+    margin-right: 22px;
+  }
+}
+
