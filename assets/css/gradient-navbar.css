@@ -175,18 +175,18 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .memberDesc {
-    width: 500px;
+    width: 270px;
     padding-left: 1px;
     margin-left: 20px;
     margin-right: 23px;
   }
 }
 
-@media (min-width: 300px) {
+@media (min-width: 576px) {
   .memberDesc {
-    width: 270px;
+    width: 500px;
     padding-left: 1px;
     margin-left: 20px;
     margin-right: 23px;
