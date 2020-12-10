@@ -161,23 +161,16 @@
   }
 }
 
-@media (min-width: 768px) {
-  .member-row-all {
-    height: 12px;
-    width: 965px;
-  }
-}
-
 @media (min-width: 992px) {
   .member-row-all {
-    height: 600px;
+    height: auto;
     width: 965px;
   }
 }
 
 @media (min-width: 1200px) {
   .member-row-all {
-    height: 315px;
+    height: auto;
     width: 965px;
   }
 }
@@ -229,7 +222,7 @@ body, html {
 
 @media (min-width: 768px) {
   .member-row3 {
-    padding-top: 650px;
+    padding-top: 100px;
   }
 }
 
@@ -247,7 +240,7 @@ body, html {
 
 @media (min-width: 768px) {
   .member-row2 {
-    padding-top: 650px;
+    padding-top: 100px;
   }
 }
 
@@ -277,7 +270,7 @@ body, html {
 
 @media (min-width: 768px) {
   .member-row {
-    padding-top: 700px;
+    padding-top: 100px;
   }
 }
 
