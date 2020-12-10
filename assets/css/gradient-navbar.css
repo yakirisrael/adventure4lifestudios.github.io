@@ -258,13 +258,13 @@ body, html {
 
 @media (min-width: 992px) {
   .member-row3 {
-    padding-top: 0px;
+    padding-top: 100px;
   }
 }
 
 @media (min-width: 992px) {
   .member-row2 {
-    padding-top: 0px;
+    padding-top: 100px;
   }
 }
 
@@ -276,7 +276,7 @@ body, html {
 
 @media (min-width: 992px) {
   .member-row {
-    padding-top: 0px;
+    padding-top: 100px;
   }
 }
 
