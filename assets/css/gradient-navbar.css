@@ -433,3 +433,21 @@ body, html {
   }
 }
 
+@media (min-width: 300px) {
+  .text-center.text-success.d-flex.justify-content-center {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  .text-center.text-success.d-flex.justify-content-center {
+    font-size: 54px;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-center.text-success.d-flex.justify-content-center {
+    font-size: 73px;
+  }
+}
+
