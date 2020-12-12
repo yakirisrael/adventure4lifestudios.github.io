@@ -529,3 +529,38 @@ body, html {
   /*bottom: 30px;*/
 }
 
+@media (min-width: 300px) {
+  .media-icon i {
+    width: 4px;
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .media-icon i {
+    width: 45px;
+    font-size: 67px;
+  }
+}
+
+@media (min-width: 768px) {
+  .media-icon i {
+    width: 45px;
+    font-size: 67px;
+  }
+}
+
+@media (min-width: 576px) {
+  .media-icon i {
+    width: 45px;
+    font-size: 67px;
+  }
+}
+
+@media (min-width: 576px) {
+  .media-icon i {
+    width: 45px;
+    font-size: 67px;
+  }
+}
+
