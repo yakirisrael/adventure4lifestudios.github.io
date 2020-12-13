@@ -512,7 +512,7 @@ body, html {
 
 #SectionSteam {
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 300px;
   /*padding-left: 50%;*/
   /*padding-top: 25px;*/
   height: 0;
@@ -562,5 +562,24 @@ body, html {
     width: 45px;
     font-size: 67px;
   }
+}
+
+.steam-wrapper iframe {
+  display: block;
+}
+
+#SectionSteam iframe {
+  display: block;
+}
+
+.steam-wrapper iframe {
+  /*visibility: hidden;*/
+  margin: auto 0;
+}
+
+.steam-wrapper {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
