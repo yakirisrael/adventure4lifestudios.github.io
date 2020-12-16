@@ -583,3 +583,91 @@ body, html {
   margin-left: auto;
 }
 
+@media (min-width: 992px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: -140px;
+  }
+}
+
+@media (min-width: 300px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: -129px;
+  }
+}
+
+@media (min-width: 576px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: -55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: -110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col.d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.flex-lg-column.justify-content-lg-center {
+    margin-left: -93px;
+  }
+}
+
+@media (min-width: 300px) {
+  #studioText {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  #studioText {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col.d-flex.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 300px) {
+  .col.d-flex.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    padding-left: 39px;
+  }
+}
+
+@media (min-width: 576px) {
+  .col.d-flex.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    padding-left: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col.d-flex.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    padding-left: 92px;
+  }
+}
+
+@media (min-width: 300px) {
+  #studioText {
+    width: 419px;
+    min-width: 350px;
+    margin-left: 155px;
+  }
+}
+
+@media (min-width: 576px) {
+  #studioText {
+    width: 557px;
+    min-width: 350px;
+    margin-left: 110px;
+  }
+}
+
