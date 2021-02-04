@@ -671,3 +671,27 @@ body, html {
   }
 }
 
+@media (min-width: 992px) {
+  .d-xl-flex.justify-content-xl-center.align-items-xl-center {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 300px) {
+  .d-xl-flex.justify-content-xl-center.align-items-xl-center {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 576px) {
+  .d-xl-flex.justify-content-xl-center.align-items-xl-center {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-xl-flex.justify-content-xl-center.align-items-xl-center {
+    max-width: 700px;
+  }
+}
+
