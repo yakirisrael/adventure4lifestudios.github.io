@@ -722,6 +722,8 @@ body, html {
     padding-top: 30px;
     padding-bottom: 0px;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -731,6 +733,8 @@ body, html {
     padding-bottom: 30px;
     width: 470px;
     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
