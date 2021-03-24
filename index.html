@@ -37,19 +37,21 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top d-xl-flex justify-content-xl-start clean-navbar" style="background-color: rgb(0,0,0);padding-right: 60px;padding-top: 13px;height: 60px;width: 100%;color: rgb(0,0,0);">
-        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler text-left" data-target="#navcol-1" style="height: 49px;width: 92.98px;padding: 0px;opacity: 1;filter: saturate(100%);background-repeat: repeat;background-size: auto;"><h1 style="color: #28a745; font-family:Acme,sans-serif; font-weight:regular; font-size:28px; padding-left:10px; margin:0px; width:20; height:49;" > MENU</h1></button>
+        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler text-left" data-target="#navcol-1" id="MenuButton" style="height: 49px;width: 92.98px;padding: 0px;opacity: 1;filter: saturate(100%);background-repeat: repeat;background-size: auto;"><h1 style="color: #28a745; font-family:Acme,sans-serif; font-weight:regular; font-size:28px; padding-left:10px; margin:0px; width:20; height:49;" > MENU</h1></button>
             <div
                 class="collapse navbar-collapse d-xl-flex" id="navcol-1" style="background-color: rgb(0,0,0);width: 100%;height: 100%;padding-right: 34px;margin-top: 4px;">
                 <ul class="nav navbar-nav d-flex ml-auto justify-content-lg-center align-items-lg-center">
-                    <li class="nav-item d-xl-flex align-items-xl-center" role="presentation" style="width: fit-content;padding-right: 0px;"><a class="nav-link active" href="index.html" style="font-size: 22px;color: #28a745;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;">Home</a>
+                    <li class="nav-item d-xl-flex align-items-xl-center" role="presentation" style="width: fit-content;padding-right: 21px;"><a class="nav-link active" href="index.html" style="font-size: 22px;color: #28a745;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;">Home</a>
                         <div></div>
                     </li>
-                    <li class="nav-item" role="presentation" style="width: fit-content;"></li>
-                    <li class="nav-item d-xl-flex align-items-xl-center" role="presentation" style="width: fit-content;padding: 4px;padding-right: 21px;"><a class="nav-link" style="color: #28a745;font-size: 22px;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;padding-right: 20px;" href="http://adventure4lifestudios.blogspot.com/">blog</a></li>
+                    <li class="nav-item d-xl-flex align-items-xl-center" role="presentation" style="width: fit-content;padding-right: 21px;"><a class="nav-link active js-scroll-trigger;" id="navlink" href="index.html#Newsletter" style="font-size: 22px;color: #28a745;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;" target="_blank">Subscribe</a>
+                        <div></div>
+                    </li>
+                    <li class="nav-item d-xl-flex align-items-xl-center" role="presentation" style="width: fit-content;padding-right: 21px;"><a class="nav-link" style="color: #28a745;font-size: 22px;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;" href="http://adventure4lifestudios.blogspot.com/">blog</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"
-                        role="presentation" style="width: fit-content;padding: 4px;padding-right: 21px;"><a class="nav-link" href="about-us.html" style="color: #28a745;font-size: 22px;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;padding-right: 20px;">About</a></li>
+                        role="presentation" style="width: fit-content;padding: 4px;padding-right: 21px;"><a class="nav-link" href="about-us.html" style="color: #28a745;font-size: 22px;font-family: 'Carter One', cursive;width: fit-content;padding-top: 13px;">About</a></li>
                     <li class="nav-item d-flex d-lg-flex flex-row justify-content-center align-items-baseline align-items-lg-center"
-                        role="presentation" style="padding-right: 0px;width: 127px;padding-left: -2px;"><a class="nav-link d-lg-flex justify-content-lg-center" href="https://www.facebook.com/PlotOfTheDruid" style="color: #28a745;font-size: 30px;font-family: Acme, sans-serif;width: 40px;"><i class="fa fa-facebook-square" style="width: 80%;height: 80%;color: #28a745;"></i></a>
+                        role="presentation" style="padding-right: 21px;width: 127px;"><a class="nav-link d-lg-flex justify-content-lg-center" href="https://www.facebook.com/PlotOfTheDruid" style="color: #28a745;font-size: 30px;font-family: Acme, sans-serif;width: 40px;"><i class="fa fa-facebook-square" style="width: 80%;height: 80%;color: #28a745;"></i></a>
                         <a
                             class="nav-link d-lg-flex justify-content-lg-center" href="https://www.twitter.com/Adventure4LifeS" style="color: #28a745;font-size: 27px;font-family: Acme, sans-serif;width: 40px;"><i class="fa fa-twitter-square" style="font-size: 30px;width: 80%;height: 80%;color: rgb(40,167,69);"></i></a><a class="nav-link d-lg-flex justify-content-lg-center" href="https://discord.gg/ZN6EzZb" style="color: rgb(72,166,234);font-size: 27px;font-family: Acme, sans-serif;width: 40px;"><i class="fab fa-discord" style="font-size: 27px;width: 80%;height: 80%;padding-top: 3px;color: #28a745;"></i></a></li>
                 </ul>
@@ -142,7 +144,7 @@ The coligny calendar told us KICKSTARTER was summoned upon our game! <br>
 
 </section>
     </main>
-    <section>
+    <section id="Contact">
         <div class="text-center d-xl-flex justify-content-xl-center" style="padding: 0px;background-color: #f1eaea;font-size: 0px;line-height: 0px;padding-bottom: 0px;padding-top: 21px;margin-top: 75px;padding-right: 0px;padding-left: 0px;"><div class="mail-zone">
 <h4 class="small-bottom-padding">Support : 
 <a href="mailto: support@plotofthedruid.com" class="black-anchor" >support@plotofthedruid.com</a></h4>
@@ -174,7 +176,7 @@ The coligny calendar told us KICKSTARTER was summoned upon our game! <br>
 				</ul>
 			</div><!-- /.yellow-zone --></div>
     </section>
-    <section class="d-flex justify-content-center align-items-center"><img class="d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/Newsletter.png" alt="Slide Image" style="padding-top: 44px;"></section>
+    <section class="d-flex justify-content-center align-items-center" id="Newsletter"><img class="d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/Newsletter.png" alt="Slide Image" style="padding-top: 44px;"></section>
     <div class="text-center d-xl-flex justify-content-xl-center" style="padding: 0px;width: auto;">
         <div class="text-center d-xl-flex justify-content-xl-center" style="padding-bottom: 0px;width: auto;min-width: 360px;">
             <p class="text-center" style="font-size: 20px;padding: 0;padding-left: 12px;margin-top: 39px;padding-bottom: 29px;padding-top: 0px;padding-right: 20px;height: 238px;"><br><strong><em>Receive hot news,&nbsp;special offers,&nbsp;exclusive contents, and more!!&nbsp;</em></strong><br><br><strong><em>We won't spam you <span style="text-decoration: line-through;">much</span>, just send an email once in a while to keep you updated!</em></strong></p>
