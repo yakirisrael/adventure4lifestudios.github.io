@@ -720,7 +720,7 @@ body, html {
 @media (min-width: 300px) {
   .kickstarter {
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
